@@ -1,0 +1,129 @@
+body{
+	
+	background-color: #e6eeff;	
+}
+
+.imagen_main{
+
+	margin: 500px;
+	padding: 400px;
+}
+
+.banner{
+				background: #3498db;
+				text-align: center;
+				display: block;
+				padding: 20px 10px;
+				color: white;
+				border-bottom: 4px solid #2980b9;
+				border-top-right-radius: 20px;
+				border-top-left-radius: 20px;
+				font-size: 30px;
+			}
+
+#registro img{
+
+	margin-left: 70px;
+	background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+	box-shadow: 5px 5px 5px #888888;
+
+}
+
+#registro button{
+
+	margin-left: 35px;
+}
+
+#reportes{
+
+	margin-left: 30px;
+}
+.big_button{
+
+	width: 190px;
+	height: 80px;
+	margin: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+a{
+
+	color: white;
+	font-size: 18px;
+}
+
+.badge-pill{
+	
+	margin: 15px;
+	width: 190px;
+	height: 40px;
+	background-color: #428bca;
+	box-shadow: 5px 5px 3px #888888;
+
+}
+
+form {
+				background: white;
+				width: 600px;
+				height: 650px;
+				margin: 30px auto ;
+				margin-bottom: 0px;
+				border-bottom: 4px solid #3498db;
+				border-bottom-right-radius: 20px;
+				border-bottom-left-radius: 20px;
+				border-top-right-radius: 20px;
+				border-top-left-radius: 20px;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form div{
+				margin: 20px 0px;
+				padding: 0px;
+}
+
+			
+			form div input:hover{
+				border: 0.5px solid #3498db;
+			}
+
+			form div input[type="submit"]{
+				background: #3498db;
+				border-right: none;
+				border-left: none;
+				border-top: none;
+				cursor: pointer;
+				width: 270px;
+				height: 40px;
+				border-bottom: 4px solid #2980b9;
+				color: white;
+				transition: all 0.5s ease;
+			}
+
+			form div input[type="submit"]:hover{
+				color: #3498db;
+				background: #ecf0f1;
+				border-bottom: 4px solid #bdc3c7;
+			}
+
+			form div input[type="submit"]:focus{
+				outline: none;
+			}
+
+#footer{
+				background: red;
+				width: 950px;
+				height: 80px;
+				margin: 25px auto ;
+				margin-bottom: 0px;
+				border-bottom: 4px solid #3498db;
+				border-bottom-right-radius: 20px;
+				border-bottom-left-radius: 20px;
+				border-top-right-radius: 20px;
+				border-top-left-radius: 20px;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				color : white;
+				padding: 10px;
+			}
